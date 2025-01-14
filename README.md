@@ -1,25 +1,25 @@
-# Calculadora Básica en C
+# Basic Calculator in C
 
-Este proyecto es una calculadora básica que realiza operaciones aritméticas simples como suma, resta, multiplicación y división. El usuario interactúa mediante la consola para ingresar los números, seleccionar el operador deseado y decidir si continuar con más operaciones.
+This project is a basic calculator that performs simple arithmetic operations such as addition, subtraction, multiplication, and division. The user interacts through the console to enter numbers, select the desired operator, and decide whether to continue with more operations.
 
-## Características
+## Features
 
-- Soporte para las operaciones básicas: `+`, `-`, `*`, `/`.
-- Entrada interactiva del usuario.
-- Validación de opciones para continuar o finalizar el programa.
-- Separación de funciones de las operaciones en el archivo `funciones.h`.
+- Support for basic operations: `+`, `-`, `*`, `/`.
+- Interactive user input.
+- Option validation to continue or exit the program.
+- Separation of operation functions in the `funciones.h` file.
 
-## Estructura del Proyecto
+## Project Structure
 
-El programa se divide en los siguientes archivos:
-- `main.c`: Contiene la lógica principal del programa.
-- `funciones.h`: Declaraciones y definiciones de las funciones de suma, resta, multiplicación y división.
+The program is divided into the following files:
+- `main.c`: Contains the main logic of the program.
+- `funciones.h`: Declarations and definitions of the addition, subtraction, multiplication, and division functions.
 
-## Cómo Usar
+## How to Use
 
-1. **Compilación**: 
-   Usa un compilador como `gcc` para compilar el programa.
+1. **Compilation**: 
+   Use a compiler like `gcc` to compile the program.
    ```bash
-   gcc main.c funciones.c -o calculadora
-2. **Ejecución**
-   ./calculadora
+   gcc main.c funciones.c -o calculator
+2. **execution**
+   ./calculator
